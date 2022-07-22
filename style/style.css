@@ -1,24 +1,27 @@
-body{
-    background: url(../images/bg.png) no-repeat center center fixed; 
+body {
+    background: url(../images/bg.png) no-repeat center center fixed;
 }
+
 /* Reset browser style */
 *,
 *::after,
-*::before{
+*::before {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Style heading */
-#heading{
+#heading {
     padding: 15px 0;
     font-size: 3.4rem;
     color: #fff;
     text-shadow: 2px 2px 0px var(--pink-color), 5px 4px 0px rgba(0, 0, 0, 0);
 }
+
 /* Set project colors */
-:root{
+:root {
     --pink-color: #f95ce2;
     --dark-pink: #4e1c46;
     --yellow-color: #efbf61;
@@ -27,9 +30,9 @@ body{
 
 
 /* Style content section */
-.content{
+.content {
 
-    margin-top:15%;
+    margin-top: 15%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -40,23 +43,20 @@ body{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     border: 0.3px solid rgba(255, 255, 255, 0.3);
-    padding:1.5rem 3rem;
-    min-height:350px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
+    padding: 1.5rem 3rem;
+    min-height: 350px;
 }
 
-#boxmain{
+#boxmain {
     display: flex;
     flex-direction: row;
 
     gap: 20px;
 
 }
-.box{
-    
+
+.box {
+
     border-radius: 10px;
     text-align: center;
     font-size: 1.3rem;
@@ -65,18 +65,21 @@ body{
     font-weight: bold;
     box-shadow: -2px 2px 11px 0px var(--dark-pink)
 }
-.box:hover{
+
+.box:hover {
     transform: scale(1.1);
     transition: 0.3s all ease-out;
 }
-.box > p:first-child{
+
+.box>p:first-child {
     background: var(--yellow-color);
     padding: 6px 11px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     color: var(--dark-pink);
 }
-.box > p:nth-child(2){
+
+.box>p:nth-child(2) {
     padding: 10px 0 3px 0;
     background: #fff;
     border-bottom-right-radius: 10px;
